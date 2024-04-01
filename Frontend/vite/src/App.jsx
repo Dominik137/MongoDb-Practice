@@ -126,6 +126,8 @@ function App() {
         <input type='text' value={name} onChange={handleNameChange}></input>
         <label>email</label>
         <input type="email" value={email} onChange={handleEmailChange}></input>
+        <label>birth day</label>
+        <input></input>
         <button type='submit'>Submit</button>
       </form>
     </div>
